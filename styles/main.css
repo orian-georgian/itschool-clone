@@ -83,6 +83,10 @@
   color: var(--dark-blue);
 }
 
+.text-some-dark-blue {
+  color: var(--some-dark-blue);
+}
+
 head,
 body {
   margin: 0;

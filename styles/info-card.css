@@ -1,0 +1,23 @@
+.info-card-section {
+  padding: 100px 20px;
+}
+
+.info-card-section .info-card {
+  max-width: min(800px, 100%);
+  margin: 0 auto;
+  padding: 48px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 3rem 6rem 0px;
+  border-radius: 16px;
+  background-color: var(--lighter-blue);
+}
+
+.info-card-section .info-card .info-card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card-section .info-card .info-card-title img {
+  width: 48px;
+  height: 48px;
+}
