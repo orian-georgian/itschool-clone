@@ -1,9 +1,67 @@
 .podcast-main .podcast-intro {
   height: 520px;
-  background: url("https://www.itschool.ro/_next/static/media/background.008d1f37.svg");
+  background: url("https://www.itschool.ro/_next/static/media/background.5c87565d.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+}
+
+.podcast-main .podcast-intro img {
+  height: 40px;
+  width: auto;
+}
+
+.podcast-main .podcast-intro h1 {
+  font-size: 52px;
+  font-weight: normal;
+}
+
+.podcast-main .podcast-main-card {
+  background-color: var(--light-yellow);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px;
+}
+
+.podcast-main .podcast-main-card .pod-main-card-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.podcast-main .podcast-main-card img {
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 68 / 43;
+  flex: 7 1 0%;
+  max-width: 50%;
+}
+
+.podcast-main-card {
+  position: relative;
+  bottom: 117px;
+}
+
+.podcast-main-card .pod-main-card-link {
+  text-decoration: none;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text h1 {
+  color: black;
+  font-size: 32px;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text :nth-child(2) {
+  color: black;
+  font-size: 18px;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text :nth-child(3) {
+  font-size: 13px;
+  color: var(--transparent-gray);
 }
