@@ -8,10 +8,122 @@
       href="https://fonts.googleapis.com/css?family=Asap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/variables.css" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/buttons.css" />
-    <link rel="stylesheet" href="../styles/info-card.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/info-card.css" />
+    <script>
+      // Data types in JavaScript
+
+      var number = 31; // number
+      var marian = "Marian Pop"; // string
+      var isTrue = 3 == 2; // boolean
+      var variableWithoutValue;
+      var undefinedType = undefined; // undefined
+      var nullType = null; // null
+
+      var number2 = number;
+
+      number = 41;
+
+      var thisVariableIsCamelCase = "Camel case";
+
+      var personObject = {
+        name: "Mariusica",
+        age: 21,
+        city: "Iasi",
+      };
+
+      var personObject2 = {
+        name: "Simona",
+        age: 21,
+        city: "Iasi",
+      };
+
+      personObject2.name = "Simona";
+
+      console.log(number);
+      console.log(marian);
+      console.log(isTrue);
+
+      console.log(variableWithoutValue);
+
+      console.log(personObject);
+      console.log("object name", personObject.name);
+
+      // Operators in Javascript
+
+      // 1. Arithmetic operators
+
+      var numberFive = 5;
+      var numberTen = 10;
+      var sumResult = numberFive + numberTen;
+      var differenceResult = numberTen - numberFive;
+      var multiplicationResult = numberFive * numberTen;
+      var divisionResult = numberTen / numberFive;
+      var powerResult = numberFive ** 2;
+
+      console.log("Sum result", sumResult);
+      console.log("Difference result", differenceResult);
+      console.log("Multiplication result", multiplicationResult);
+      console.log("Division result", divisionResult);
+      console.log("Power result", powerResult);
+
+      // 2. Comparison operators
+
+      var isEqual = numberFive == numberTen;
+      var isDifferent = numberFive != numberTen;
+      var isGreaterThan = numberFive > numberTen;
+      var isGreaterOrEqual = numberFive >= numberTen;
+
+      console.log("Is equal", isEqual);
+      console.log("Is different", isDifferent);
+      console.log("Is greater than", isGreaterThan);
+      console.log("Is greater or equal", isGreaterOrEqual);
+
+      // 3. Logical operators
+
+      var isCold = true;
+      var isHot = true;
+      var isSnowing = false;
+      var isRaining = true;
+      var isSunny = true;
+
+      var isWinter = isCold && isSnowing;
+      var isEarlySpring = isCold || isSnowing;
+      var isSummer = !isSnowing;
+
+      console.log("Is winter", isWinter);
+      console.log("Is early spring", isEarlySpring);
+      console.log("Is summer", isSummer);
+
+      var someNumber = 20;
+
+      console.log("Some number: ", someNumber);
+
+      someNumber = "Maria";
+
+      console.log("Some number: ", someNumber);
+
+      someNumber = { color: "red" };
+
+      console.log("Some number: ", someNumber);
+
+      console.log(5 + "Maria");
+
+      console.log(false + 10);
+
+      var numberFour = 4;
+      var numberFourString = "4";
+
+      console.log(numberFour == numberFourString);
+      console.log(numberFour === numberFourString);
+
+      // Type of variables
+
+      console.log("Type of number: ", typeof numberFour);
+      console.log("Type of number string: ", typeof numberFourString);
+    </script>
   </head>
   <body>
     <header class="header">
