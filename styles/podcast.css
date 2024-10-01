@@ -1,0 +1,186 @@
+.podcast-main .podcast-intro {
+  height: 520px;
+  background: url("https://www.itschool.ro/_next/static/media/background.5c87565d.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.podcast-main .podcast-intro img {
+  height: 40px;
+  width: auto;
+}
+
+.podcast-main .podcast-intro h1 {
+  font-size: 52px;
+  font-weight: normal;
+}
+
+.podcast-main .podcast-main-card {
+  background-color: var(--light-yellow);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px;
+}
+
+.podcast-main .podcast-main-card .pod-main-card-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.podcast-main .podcast-main-card img {
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 68 / 43;
+  flex: 7 1 0%;
+  max-width: 50%;
+}
+
+.podcast-main-card {
+  position: relative;
+  bottom: 117px;
+}
+
+.podcast-main-card .pod-main-card-link {
+  text-decoration: none;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text h1 {
+  color: black;
+  font-size: 32px;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text :nth-child(2) {
+  color: black;
+  font-size: 18px;
+}
+
+.podcast-main-card .pod-main-card-link .podcast-main-text :nth-child(3) {
+  font-size: 13px;
+  color: var(--transparent-gray);
+}
+
+.pod-cards-list .pod-card img {
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  flex: 4 1 0%;
+  max-width: 170px;
+  max-height: 100px;
+  min-width: 170px;
+  min-height: 100px;
+}
+
+.pod-cards-list .pod-card .pod-card-text h3 {
+  font-size: 22px;
+  margin: 0;
+  line-height: 26px;
+  padding-bottom: 8px;
+}
+
+.pod-cards-list .pod-card .pod-card-text :nth-child(2) {
+  font-size: 18px;
+  margin: 0;
+  line-height: 26px;
+  padding-bottom: 13px;
+}
+
+.pod-cards-list .pod-card .pod-card-text :nth-child(3) {
+  font-size: 13px;
+  color: var(--transparent-gray);
+  margin: 0;
+  line-height: 16px;
+}
+
+.pod-cards-list .pod-card {
+  width: 100%;
+  padding: 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  background-color: var(--light-yellow);
+  box-shadow: rgba(25, 30, 48, 0.1) 0px 30px 60px;
+}
+
+.pod-cards-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.pod-coloana1,
+.pod-coloana2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pod-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.pod-btn-div a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  padding: 0 25px;
+  margin: 0;
+}
+
+.pod-free-counsel {
+  background-image: url(https://www.itschool.ro/_next/static/media/background.c097b26b.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 539px;
+}
+
+.pod-free-counsel .content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.pod-free-counsel .content h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.pod-free-counsel .content :nth-child(1) {
+  font-size: 18px;
+  padding: 110px 0 30px 0;
+  margin: 0;
+}
+
+.pod-free-counsel .content :nth-child(3) {
+  margin: 0;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.counsel-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.counsel-btn-div a {
+  font-size: 18px;
+}
